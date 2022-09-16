@@ -1,6 +1,6 @@
 {
   "name": "@shaoalong/two",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "lerna 测试 two",
   "author": "shaoalong <1593439044@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "node ./__tests__/two.test.js"
   },
   "dependencies": {
-    "@shaoalong/one": "^1.0.1",
+    "@shaoalong/one": "^1.0.2",
     "lodash": "^4.17.21",
     "react": "^18.2.0"
   },
