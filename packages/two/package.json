@@ -1,6 +1,6 @@
 {
   "name": "@shaoalong/two",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "shaoalong <1593439044@qq.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "test": "node ./__tests__/two.test.js"
   },
   "dependencies": {
-    "@shaoalong/one": "^1.0.0",
+    "@shaoalong/one": "^1.0.1",
     "lodash": "^4.17.21",
     "react": "^18.2.0"
   }
