@@ -1,11 +1,14 @@
 {
   "name": "@shaoalong/one",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "shaoalong <1593439044@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/one.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,5 +25,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "zepto": "^1.2.0"
-  }
+  },
+  "gitHead": "257021b2b4c3e3f600400030629418de43b67927"
 }
