@@ -1,8 +1,10 @@
-46 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
-47 error Error: Command failed with exit code 128: git tag @shaoalong/one@1.0.1 -m @shaoalong/one@1.0.1
-47 error fatal: tag '@shaoalong/one@1.0.1' already exists
-47 error     at makeError (/Users/shaoalong/program/learn/lerna_package/node_modules/execa/lib/error.js:60:11)
-47 error     at handlePromise (/Users/shaoalong/program/learn/lerna_package/node_modules/execa/index.js:118:26)
-47 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-47 error     at async Promise.all (index 0)
-47 error     at async Promise.all (index 0)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/shaoalong/lerna_package.git/': LibreSSL SSL_read: error:02FFF03C:system library:func(4095):Operation timed out, errno 60
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (/Users/shaoalong/program/learn/lerna_package/node_modules/execa/lib/error.js:60:11)
+15 error     at Function.module.exports.sync (/Users/shaoalong/program/learn/lerna_package/node_modules/execa/index.js:194:17)
+15 error     at Object.execSync (/Users/shaoalong/program/learn/lerna_package/node_modules/@lerna/child-process/index.js:39:16)
+15 error     at updateRemote (/Users/shaoalong/program/learn/lerna_package/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (/Users/shaoalong/program/learn/lerna_package/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (/Users/shaoalong/program/learn/lerna_package/node_modules/@lerna/version/index.js:156:9)

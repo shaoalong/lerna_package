@@ -26,5 +26,8 @@
     "react-dom": "^18.2.0",
     "zepto": "^1.2.0"
   },
-  "gitHead": "257021b2b4c3e3f600400030629418de43b67927"
+  "gitHead": "257021b2b4c3e3f600400030629418de43b67927",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
 }
