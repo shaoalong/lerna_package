@@ -1,3 +1,4 @@
 module.export = {
-  haha() {}
+  haha() {},
+  lala() {}
 }
